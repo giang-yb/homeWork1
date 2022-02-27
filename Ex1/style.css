@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.big_cnt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.big_cnt input{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.big_cnt button{
+    padding: 5px 10px;
+}
+
+.title p{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
